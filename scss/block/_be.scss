@@ -1,0 +1,56 @@
+.be{
+    padding-top: 235px;
+    padding-bottom: 216px;
+    background-image: url("../img/be_dog.png");
+    background-repeat: no-repeat;
+    background-position-x: calc(50% + 400px);
+    background-position-y: 80px;
+    height: 481px;
+    z-index: 1;
+}
+.be__bg{
+    background-image: url("../img/be.png");
+    padding-top: 90px;
+    padding-bottom: 88px;
+    z-index: -1;
+}
+.be__div{
+    margin-left: 230px;
+}
+.be__diw__title{
+    font-family: 'Futura PT';
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #fff;
+    margin-bottom: 32px;
+}
+.be__div__form__inp{
+    width: 335px;
+    height: 50px;
+    margin-right: 21px;
+}
+.be__div__form__btn{
+    font-family: 'Futura PT';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21px;
+    color: #fff;
+    border: none;
+    padding: 15px 53px 16px 51px;
+    background-color: #333;
+}
+.be__div__form__btn:hover{
+    background-color: #FFBD54;
+    color: #000;
+}
+.be__div__form__btn:hover{
+    background-color: #FFBD54;
+    color: #000;
+    opacity: 0.6;
+}
+@media screen and (max-width:1200px){
+    .be{
+        background-image: none;
+    }
+}

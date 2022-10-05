@@ -1,0 +1,114 @@
+.hero{
+    background-image: url("../img/hero_dg1.png");
+    background-repeat: no-repeat;
+    background-position-x: calc(50% - 540px);
+    background-position-y: calc(-110px);
+}
+.hero__bg{
+    background-image: url("../img/hero_dg2.png");
+    background-repeat: no-repeat;
+    background-position-x: calc(50% + 700px);
+    background-position-y: 410px;
+}
+.hero__title{
+    margin-left: 655px;
+    padding-top: 153px;
+    font-family: 'Futura PT';
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 64px;
+    color: #333333;
+    max-width: 603px;
+}
+.hero__title__coller{
+   color: #78C0DE;
+}
+.hero__text{
+    font-family: 'Futura PT';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #949494;
+    padding-top: 27px;
+    margin-bottom: 38px;
+    max-width: 495px;
+    margin-left: 655px;
+}
+.hero__btn{
+    display: block;
+    margin-left: 670px;
+    font-family: 'Futura PT';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21px;
+    padding: 15px 48px 16px 47px;
+    color: #fff;
+    border-radius: 3px;
+    background-color: #333;
+    margin-bottom: 311px;
+    border: none;
+}
+.hero__btn:hover{
+    color: #000;
+    background-color:#FFBD54;
+}
+.hero__btn:active{
+    color: #000;
+    background-color: #FFBD54;
+    opacity: 0.6;
+}
+.hero__line{
+    width: 140px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #DBDBDB;
+}
+.hero__des{
+    font-family: 'Futura PT';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    padding-top: 43px;
+    padding-bottom: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #949494;
+    max-width: 808px;
+}
+.hero__strong{
+    font-family: 'Futura PT';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #333;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: block;
+    margin-top: 35px;
+}
+@media screen and (max-width:1220px){
+    .hero{
+        background-position-x: center;
+    }
+    .hero__text{
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .hero__title__coller{
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center; 
+    }
+    .hero__text{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .hero__btn{
+        margin-left: auto;
+        margin-right: auto;  
+    }
+}

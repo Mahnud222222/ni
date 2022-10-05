@@ -1,0 +1,137 @@
+.our{
+    padding-top: 191px;
+}
+.our__title{
+    margin-bottom: 80px;
+    font-family: 'Futura PT';
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 54px;
+    text-align: center;
+    color: #333;
+}
+.logo:hover {
+    opacity: 0.8;
+}
+.logo:active{
+    opacity: 0.6;
+}
+.our__list__link:hover{
+    opacity: 0.8;
+}
+.our__list__link:active li{
+    opacity: 0.8;
+}
+.our__list__img{
+    padding-top: 30px;
+    margin-left: 60px;
+}
+.our__list__text{
+    font-family: 'Futura PT';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: center;
+    color: #333;
+    width: 126px;
+    margin-top: 21px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.our__list{
+    border-radius: 5px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    margin-left: -13px;
+    margin-bottom: 20px;
+}
+.our__item{
+    margin-left: 13px;
+    width: 201px;
+    height: 193px;
+    background-color: #fff;
+}
+.our__box{
+    background-color: #fff;
+    padding-top: 41px;
+    padding-bottom: 41px;
+    display: flex;
+    justify-content: space-between;
+}
+.our__box__img{
+    margin-left: 30px;
+}
+.our__wrapper{
+    width: 500px;
+    margin-right: 100px;
+}
+.our__wrapper__titel{
+    padding-top: 33px;
+    margin-bottom: 18px;
+    font-family: 'Futura PT';
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #333;
+}
+.our__wrapper__text{
+    margin-bottom: 9px;
+    font-family: 'Futura PT';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #949494;
+}
+.our__wrapper__div__btn{
+    margin-top: 34px;
+    border: none;
+    padding: 15px 36px 16px 35px;
+    background-color: #FFBD54;
+}
+.our__wrapper__div__btn:hover{
+    color: #FFBD54;
+    background-color: #333;
+}
+.our__wrapper__div__btn:active{
+    color: #FFBD54;
+    background-color: #333;
+    opacity: 0.6;
+}
+.our__wrapper__div__butten{
+    margin-top: 34px;
+    border: none;
+    padding: 15px 36px 16px 35px;
+    color: #FFBD54;
+    background-color: #333;
+}
+.our__wrapper__div__butten:hover{
+    color: #000;
+    background-color: #FFBD54;
+}
+.our__wrapper__div__butten:active{
+    color: #000;
+    opacity: 0.6;
+    background-color: #FFBD54;
+}
+@media screen and (max-width:1100px){
+    .our__box{
+        flex-direction: column;
+    }
+    .our__wrapper{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .our__box__img__img{
+        max-width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .our__wrapper__titel{
+        text-align: center;
+    }
+    .our__wrapper__text{
+        text-align: center;
+    }
+}
